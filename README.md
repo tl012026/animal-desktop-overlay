@@ -1,4 +1,4 @@
-## animal-desktop-overlay
+## Animal Desktop Overlay
 
 Input an image, extract the animal cutout (transparent PNG), then show it as a frameless always-on-top desktop overlay at a random position.
 
