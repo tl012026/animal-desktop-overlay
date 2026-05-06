@@ -10,11 +10,10 @@ Input an image, extract the animal cutout (transparent PNG), then show it as a f
 ### Install
 
 ```bash
-cd /home/yl13095/animal-desktop-overlay
-# NOTE: on many HPC setups, $HOME has a small quota.
-# Prefer putting the venv on /scratch and keep the repo in $HOME.
-python -m venv /scratch/yl13095/animal-desktop-overlay/.venv
-source /scratch/yl13095/animal-desktop-overlay/.venv/bin/activate
+git clone https://github.com/tl012026/animal-desktop-overlay.git
+cd animal-desktop-overlay
+python -m venv animal-desktop-overlay/.venv
+source animal-desktop-overlay/.venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
 ```
